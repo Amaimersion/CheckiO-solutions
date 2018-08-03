@@ -4,7 +4,7 @@ class Unit(object):
         self.attack = attack
         self.is_alive = True if health > 0 else False
 
-    """Attack."""
+    """Getting damage."""
     def BishBashBosh(self, damage):
         self.health -= damage
         self.is_alive = True if self.health > 0 else False
